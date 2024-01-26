@@ -1,0 +1,85 @@
+@media (max-width: 767px) {
+    nav{
+        flex-wrap: wrap;
+    }
+    .logo a h1{
+        font-size: 17px;
+    }
+
+    .logo a svg{
+        margin-top: 1px;
+        width: 17px;
+        height: 17px;
+    }
+
+    .dropdown-about p, .nav-option a{
+        font-size: 12px !important;
+    }
+
+    .database-icon{
+        left: 50px !important;
+    }
+
+    .myself-img img{
+        width: 100px !important;
+        height: 100px !important;
+    }
+
+    .introduction h4{
+        font-size: 20px !important;
+    }
+
+    .introduction{
+        gap: 10px !important;
+    }
+
+    .introduction .description p{
+        width: 90% !important;
+        font-size: 9px !important;
+        text-align: justify !important;
+    }
+
+    .download-resume{
+        text-align: center;
+        background-color: #208df3;
+        border: none;
+        width: 100px !important;
+        height: 25px !important;
+        border-radius: 20px;
+        box-shadow: 0px 0px 5px black;
+    }
+    
+    .download-resume a{
+        font-size: 10px !important;
+        text-decoration: none;
+        color: #fff;
+        font-weight: 700;
+    }
+
+    .project-container video{
+        width: 150px !important;
+        height: 80px !important;
+    }
+
+    .flex-video h4{
+        font-size: 12px !important;
+    }
+
+    .flex-video p{
+        font-size: 10px !important;
+        width: 95% !important;
+    }
+
+
+    footer{
+        gap: 10px !important;
+    }
+
+    footer a, .email{
+        font-size: 10px !important;
+    }
+
+    .copyright{
+        font-size: 12px !important;
+    }
+}
